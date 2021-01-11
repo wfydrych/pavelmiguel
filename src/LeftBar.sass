@@ -1,0 +1,56 @@
+.leftbar
+    grid-area: leftbar
+    background-color: rgb(223, 222, 221)
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    margin: 0 20px
+    max-height: 82vh
+
+    &__picdiv
+        width: 25vh
+        height: 25vh
+        position: relative
+
+        &__txt
+            position: absolute
+            box-sizing: border-box
+            top: 0
+            left: 0
+            width: 100%
+            padding: 5%
+            z-index: 2
+            text-align: center
+            color: white
+            top: 0
+            left: 0
+            background-color: rgba(0, 0, 0, 0.5)
+            transition: .3s
+
+        img
+            height: 25vh
+            width: 25vh
+
+            &:hover
+                cursor: pointer
+
+            &:hover + .leftbar__picdiv__txt
+                cursor: pointer
+                background-color: rgb(0, 0, 0)
+
+@media (max-width: 1000px)
+    .leftbar
+        display: flex
+
+        &__picdiv
+            height: auto
+            width: 40vw
+            cursor: pointer
+
+            &__txt
+                padding: 2%
+                font-size: 16px
+
+            img
+                display: none
