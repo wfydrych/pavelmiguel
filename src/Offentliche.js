@@ -2,6 +2,7 @@ import React, {Fragment} from 'react'
 import './Offentliche.sass'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
+import './slider_settings.sass'
 import p1 from './img/oeffentliche/1.jpg'
 import p2 from './img/oeffentliche/2.jpg'
 import p3 from './img/oeffentliche/3.jpg'
@@ -31,7 +32,7 @@ const Offentliche = (props) =>
                     <p className="legend">Madonna aus Söllingen</p>
                 </div>
                 <div>
-                    <img src={p9} alt="Madonna aus Söllingen"/>
+                    <img src={p4} alt="Madonna aus Söllingen"/>
                     <p className="legend">Madonna aus Söllingen</p>
                 </div>
                 <div>

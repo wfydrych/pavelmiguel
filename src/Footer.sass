@@ -4,37 +4,57 @@ footer
     background-color: rgb(11, 10, 9)
     color: #FFFFFF
     position: fixed
-    bottom: 0
+    bottom: 8px
     left: 0
     display: flex
     flex-grow: 1
     justify-content: space-between
     grid-area: footer
+    align-child: center
+    box-sizing: border-box
+    z-index: 10
 
     .footer
         line-height: 8vh
-        display: inline-block
         font-size: 12px
         background-color: rgb(11, 10, 9)
+        padding: 0 5px
+        margin: 0
 
-    .footer-left
-        margin-left: 7%
-        
+        &:first-child
+            margin-left: 10px
 
-    .footer-mid
-        span
-            margin-left: 30px
-            background-color: rgb(11, 10, 9)
+        &:last-child
+            margin-right: 10px
 
+.author
+    width: 100vw
+    height: 8px
+    position: fixed
+    bottom: 0
+    left: 0
+    z-index: 10
+    background-color: rgb(11, 10, 9)
+    line-height: 8px
+    color: #A6A6A6
+    font-size: 8px
+    text-align: center
+    box-sizing: border-box
 
-    .footer-right
-        margin-right: 7%
+a
+    background-color: rgb(11, 10, 9)
+    text-decoration: none
+    color: #A6A6A6
+    font-size: 8px
+
+    &:hover
+        cursor: pointer
 
 @media (max-width: 720px)
     footer
+        flex-wrap: wrap
+        justify-content: space-evenly
+
         .footer
             font-size: 8px
-
-        .footer-mid
-            span
-                font-size: 8px
+            line-height: 10px

@@ -2,7 +2,7 @@ import React from 'react'
 import './LeftBar.sass'
 import {NavLink} from 'react-router-dom'
 import werke from './img/werke.jpg'
-import skulpturen from './img/skulptur.png'
+import skulpturen from './img/MSA_27821.jpg'
 import installationen from './img/installationen.jpg'
 
 const LeftBar = (props) => 

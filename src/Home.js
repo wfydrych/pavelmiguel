@@ -1,14 +1,22 @@
 import React, {Fragment} from 'react'
+import Media from 'react-media'
 import './Home.sass'
 import homepic from './img/home.jpg'
-import signature from './img/signature.png'
+import homepic_m from './img/home-mobile.jpg'
 
 const Home = (props) => 
     (
     <Fragment>
         <div className='home'>
-            <img src={homepic} alt='homepic' className='home__pic'/>
-            <img src={signature} alt='signature' className='home__signature' />
+            <Media query={{ maxWidth: 600 }}>
+                {matches =>
+                 matches ? (
+                    <img src={homepic_m} alt='homepic' className='home__pic'/>
+                ) : (
+                    <img src={homepic} alt='homepic' className='home__pic'/>
+                )
+            }
+            </Media>
         </div>
     </Fragment>
 )

@@ -2,6 +2,7 @@ import React, {Fragment} from 'react'
 import './Malerei.sass'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
+import './slider_settings.sass'
 import p1 from './img/malerei/1.jpg'
 import p2 from './img/malerei/2.jpg'
 import p3 from './img/malerei/3.png'

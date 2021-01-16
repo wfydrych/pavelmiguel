@@ -5,10 +5,12 @@ const Footer = (props) =>
     (
     <Fragment>
         <footer>
-            <div className='footer footer-left'>Atelier Pavel Miguel Georgstr.17, 76327 Pfinztal</div>
-            <div className='footer footer-mid'>0721 4539 688 <span>pavelmiguel@yahoo.de</span></div>
-            <div className='footer footer-right'>Impressum</div>
+            <div className='footer'>Atelier Pavel Miguel, Georgstr.17, 76327 Pfinztal</div>
+            <div className='footer'>0174 817 99 98</div>
+            <div className='footer'>pavelmiguel@yahoo.de</div>
+            <div className='footer'>Impressum</div>
         </footer>
+        <div className='author'>Coded by <a target="_blank" href="http://wojciechfydrych.com/">Wojciech Fydrych</a>, Copyright 2021</div>
     </Fragment>
 )
 
