@@ -13,6 +13,7 @@ import Installationen from'./Installationen'
 import Malerei from'./Malerei'
 import Zeichnungen from'./Zeichnungen'
 import Performance from'./Performance'
+import Impressum from './Impressum'
 import './Main.sass'
 
 const Main = (props) => 
@@ -80,6 +81,10 @@ const Main = (props) =>
                 <Route 
                     path='/performance' 
                     render = {text => <Performance></Performance>}>
+                </Route>
+                <Route 
+                    path='/impressum' 
+                    render = {text => <Impressum></Impressum>}>
                 </Route>
             </AnimatedSwitch>
         </Switch>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import { BrowserRouter } from 'react-router-dom'
+import Provider from './Provider'
 import './Body.sass'
 import Menu from './Menu'
 import LeftBar from './LeftBar'
@@ -80,11 +81,13 @@ class Body extends Component {
     return (
       <div className='page'>
         <BrowserRouter>
-          <Menu menu={this.txt.menu} slideMenu={this.handleMobileMenu} handleClick={this.handleLangClick.bind(this)}></Menu>
-          <LeftBar></LeftBar>
-          <Main></Main>
-          <RightBar></RightBar>
-          <Footer></Footer>
+          <Provider>
+            <Menu menu={this.txt.menu} slideMenu={this.handleMobileMenu} handleClick={this.handleLangClick.bind(this)}></Menu>
+            <LeftBar></LeftBar>
+            <Main></Main>
+            <RightBar></RightBar>
+            <Footer></Footer>
+          </Provider>
         </BrowserRouter>
       </div>
     );
