@@ -35,6 +35,7 @@ import p29 from './img/installationen/29.jpg'
 import p30 from './img/installationen/30.jpg'
 import p31 from './img/installationen/31.jpg'
 import p32 from './img/installationen/32.jpg'
+import p33 from './img/installationen/33.jpg'
 
 const Installationen = (props) => 
     (
@@ -169,6 +170,10 @@ const Installationen = (props) =>
                 <div>
                     <img src={p32} alt="sisyphus (2)"/>
                     <p className="legend">sisyphus (2)</p>
+                </div>
+                <div>
+                    <img src={p33} alt="was bleibt"/>
+                    <p className="legend">Was bleibt</p>
                 </div>
             </Carousel>
         </div>
