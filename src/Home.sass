@@ -1,7 +1,15 @@
 .home
     &__pic
         background: url('./img/home.jpg')
-        background-size: cover
+        background-size: contain
         background-position: center
-        width: 100%
+        width: 56vw
+        margin-top: 20px
+        margin-left: 2vw
         height: auto
+
+@media (max-width: 1000px)
+    .home
+        &__pic
+            width: 100vw
+            margin-left: 0
