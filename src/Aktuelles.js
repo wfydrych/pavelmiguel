@@ -26,36 +26,36 @@ const Aktuelles = (props) =>
         <div className='aktuelles'>
             <span className='aktuelles__title'>Aktuelles</span>
             <span className='aktuelles__txt'>Januar 2021 2020/2021 Kunst während Corona</span>
-            <img alt='aktuelles' className='aktuelles__pic' src={p1} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p2} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p3} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p1} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p2} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p3} />
 
             <span className='aktuelles__txt'>Januar 2021 Ausstellung „Heimat“. Restaurant Grötzinger Raststube</span>
-            <img alt='aktuelles' className='aktuelles__pic' src={p4} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p5} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p4} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p5} />
 
             <span className='aktuelles__txt'>Januar 2021, „Heimat“ - Aufbau den Reliefs bei Grötzinger Raststube</span>
-            <img alt='aktuelles' className='aktuelles__pic' src={p6} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p7} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p8} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p6} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p7} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p8} />
 
             <span className='aktuelles__txt'>November 2020 – Montage von meiner Skulptur „Aus eigenen Antrieb”, Karlsruhe-Durlach</span>
-            <img alt='aktuelles' className='aktuelles__pic' src={p9} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p10} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p11} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p9} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p10} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p11} />
 
             <span className='aktuelles__txt'>November 2020 – Offene Ateliers: mein eigenes Skulpturen Park</span>
-            <img alt='aktuelles' className='aktuelles__pic' src={p12} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p13} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p12} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p13} />
 
             <span className='aktuelles__txt'>Oktober 2020 – Ausstellung „Menschenrechte- Presse- und Meinungsfreiheit“ in der Café Grundrecht in Karlsruhe</span>
-            <img alt='aktuelles' className='aktuelles__pic' src={p14} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p15} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p16} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p14} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p15} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p16} />
 
             <span className='aktuelles__txt'>Oktober 2020 - „Menschenrechte- Presse- und Meinungsfreiheit“ – Aufbau meiner Ausstellung bei der Café Grundrecht in der Karlsruher Innensdtadt</span>
-            <img alt='aktuelles' className='aktuelles__pic' src={p17} />
-            <img alt='aktuelles' className='aktuelles__pic' src={p18} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p17} />
+            <img loading="lazy" alt='aktuelles' className='aktuelles__pic' src={p18} />
         </div>
     </Fragment>
 )

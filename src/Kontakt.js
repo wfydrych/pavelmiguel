@@ -14,7 +14,7 @@ const Kontakt = (props) =>
                 <span className='contact__info__data'>0174 8179 998</span>
                 <span className='contact__info__data'>pavelmiguel@yahoo.de</span>
             </div>
-            <img className='contact__img' src={contactpic} alt='contact'/>
+            <img loading="lazy" className='contact__img' src={contactpic} alt='contact'/>
         </div>
     </Fragment>
 )

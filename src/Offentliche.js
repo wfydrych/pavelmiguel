@@ -20,39 +20,39 @@ const Offentliche = (props) =>
             <span className='offentliche__info'>Öffentliche Werke</span>
             <Carousel dynamicHeight={true} showArrows={true}>
                 <div>
-                    <img src={p1} alt="Vater und Sohn"/>
+                    <img loading="lazy" src={p1} alt="Vater und Sohn"/>
                     <p className="legend">Vater und Sohn</p>
                 </div>
                 <div>
-                    <img src={p2} alt="Madonna aus Söllingen"/>
+                    <img loading="lazy" src={p2} alt="Madonna aus Söllingen"/>
                     <p className="legend">Madonna aus Söllingen</p>
                 </div>
                 <div>
-                    <img src={p3} alt="Madonna aus Söllingen"/>
+                    <img loading="lazy" src={p3} alt="Madonna aus Söllingen"/>
                     <p className="legend">Madonna aus Söllingen</p>
                 </div>
                 <div>
-                    <img src={p4} alt="Madonna aus Söllingen"/>
+                    <img loading="lazy" src={p4} alt="Madonna aus Söllingen"/>
                     <p className="legend">Madonna aus Söllingen</p>
                 </div>
                 <div>
-                    <img src={p5} alt="Tänzer"/>
+                    <img loading="lazy" src={p5} alt="Tänzer"/>
                     <p className="legend">Tänzer</p>
                 </div>
                 <div>
-                    <img src={p6} alt="Grosser Schwimmer"/>
+                    <img loading="lazy" src={p6} alt="Grosser Schwimmer"/>
                     <p className="legend">Grosser Schwimmer</p>
                 </div>
                 <div>
-                    <img src={p7} alt="Zappa"/>
+                    <img loading="lazy" src={p7} alt="Zappa"/>
                     <p className="legend">Zappa</p>
                 </div>
                 <div>
-                    <img src={p8} alt="Zappa"/>
+                    <img loading="lazy" src={p8} alt="Zappa"/>
                     <p className="legend">Zappa</p>
                 </div>
                 <div>
-                    <img src={p9} alt="sag mir was du isst..."/>
+                    <img loading="lazy" src={p9} alt="sag mir was du isst..."/>
                     <p className="legend">sag mir was du isst...</p>
                 </div>
             </Carousel>

@@ -48,151 +48,151 @@ const Installationen = (props) =>
             <span className='installationen__info'>Installationen</span>
             <Carousel dynamicHeight={true} showArrows={true}>
                 <div>
-                    <img src={p7} alt="alles was ich wissen sollte"/>
+                    <img loading="lazy" src={p7} alt="alles was ich wissen sollte"/>
                     <p className="legend">alles was ich wissen sollte</p>
                 </div>
                 <div>
-                    <img src={p1} alt="es ist schmerzhaft erbe zu sein1"/>
+                    <img loading="lazy" src={p1} alt="es ist schmerzhaft erbe zu sein1"/>
                     <p className="legend">es ist schmerzhaft erbe zu sein1</p>
                 </div>
                 <div>
-                    <img src={p2} alt="Himmelsleiter"/>
+                    <img loading="lazy" src={p2} alt="Himmelsleiter"/>
                     <p className="legend">Himmelsleiter</p>
                 </div>
                 <div>
-                    <img src={p3} alt="mein heimat"/>
+                    <img loading="lazy" src={p3} alt="mein heimat"/>
                     <p className="legend">mein heimat</p>
                 </div>
                 <div>
-                    <img src={p4} alt="auf dem Lorbeeren ausruhen (dieselbe)"/>
+                    <img loading="lazy" src={p4} alt="auf dem Lorbeeren ausruhen (dieselbe)"/>
                     <p className="legend">auf dem Lorbeeren ausruhen (dieselbe)</p>
                 </div>
                 <div>
-                    <img src={p5} alt="auf dem Lorbeeren ausruhen"/>
+                    <img loading="lazy" src={p5} alt="auf dem Lorbeeren ausruhen"/>
                     <p className="legend">auf dem Lorbeeren ausruhen</p>
                 </div>
                 <div>
-                    <img src={p6} alt="wohin du gehts, gehst du mit mir"/>
+                    <img loading="lazy" src={p6} alt="wohin du gehts, gehst du mit mir"/>
                     <p className="legend">wohin du gehts, gehst du mit mir</p>
                 </div>
                 <div>
-                    <img src={p8} alt="der eroberer kommt"/>
+                    <img loading="lazy" src={p8} alt="der eroberer kommt"/>
                     <p className="legend">der eroberer kommt</p>
                 </div>
                 <div>
-                    <img src={p9} alt="der eroberer kommt (dieselbe)"/>
+                    <img loading="lazy" src={p9} alt="der eroberer kommt (dieselbe)"/>
                     <p className="legend">der eroberer kommt (dieselbe)</p>
                 </div>
                 <div>
-                    <img src={p10} alt="bäume"/>
+                    <img loading="lazy" src={p10} alt="bäume"/>
                     <p className="legend">bäume</p>
                 </div>
                 <div>
-                    <img src={p11} alt="bäume"/>
+                    <img loading="lazy" src={p11} alt="bäume"/>
                     <p className="legend">bäume</p>
                 </div>
                 <div>
-                    <img src={p12} alt="bäume"/>
+                    <img loading="lazy" src={p12} alt="bäume"/>
                     <p className="legend">bäume</p>
                 </div>
                 <div>
-                    <img src={p13} alt="welcome to the machine"/>
+                    <img loading="lazy" src={p13} alt="welcome to the machine"/>
                     <p className="legend">welcome to the machine</p>
                 </div>
                 <div>
-                    <img src={p14} alt="wurzelschlagen7"/>
+                    <img loading="lazy" src={p14} alt="wurzelschlagen7"/>
                     <p className="legend">wurzelschlagen7</p>
                 </div>
                 <div>
-                    <img src={p15} alt="wurzelschlagen8"/>
+                    <img loading="lazy" src={p15} alt="wurzelschlagen8"/>
                     <p className="legend">wurzelschlagen8</p>
                 </div>
                 <div>
-                    <img src={p16} alt="wurzelschlagen6"/>
+                    <img loading="lazy" src={p16} alt="wurzelschlagen6"/>
                     <p className="legend">wurzelschlagen6</p>
                 </div>
                 <div>
-                    <img src={p17} alt="wurzelschlagen5"/>
+                    <img loading="lazy" src={p17} alt="wurzelschlagen5"/>
                     <p className="legend">wurzelschlagen5</p>
                 </div>
                 <div>
-                    <img src={p18} alt="wurzelschlagen4"/>
+                    <img loading="lazy" src={p18} alt="wurzelschlagen4"/>
                     <p className="legend">wurzelschlagen4</p>
                 </div>
                 <div>
-                    <img src={p19} alt="wurzelschlagen3"/>
+                    <img loading="lazy" src={p19} alt="wurzelschlagen3"/>
                     <p className="legend">wurzelschlagen3</p>
                 </div>
                 <div>
-                    <img src={p20} alt="wurzelschlagen2"/>
+                    <img loading="lazy" src={p20} alt="wurzelschlagen2"/>
                     <p className="legend">wurzelschlagen2</p>
                 </div>
                 <div>
-                    <img src={p21} alt="wurzelschlagen1"/>
+                    <img loading="lazy" src={p21} alt="wurzelschlagen1"/>
                     <p className="legend">wurzelschlagen1</p>
                 </div>
                 <div>
-                    <img src={p22} alt="die Welle der Illusion"/>
+                    <img loading="lazy" src={p22} alt="die Welle der Illusion"/>
                     <p className="legend">die Welle der Illusion</p>
                 </div>
                 <div>
-                    <img src={p23} alt="dein Kurs bestimmen (dieselbe)"/>
+                    <img loading="lazy" src={p23} alt="dein Kurs bestimmen (dieselbe)"/>
                     <p className="legend">dein Kurs bestimmen (dieselbe)</p>
                 </div>
                 <div>
-                    <img src={p24} alt="dein Kurs bestimmen"/>
+                    <img loading="lazy" src={p24} alt="dein Kurs bestimmen"/>
                     <p className="legend">dein Kurs bestimmen</p>
                 </div>
                 <div>
-                    <img src={p25} alt="es ist schmerzhaft erbe zu sein2"/>
+                    <img loading="lazy" src={p25} alt="es ist schmerzhaft erbe zu sein2"/>
                     <p className="legend">es ist schmerzhaft erbe zu sein2</p>
                 </div>
                 <div>
-                    <img src={p26} alt="brille gegen radioaktivität1"/>
+                    <img loading="lazy" src={p26} alt="brille gegen radioaktivität1"/>
                     <p className="legend">brille gegen radioaktivität1</p>
                 </div>
                 <div>
-                    <img src={p27} alt="brille gegen radioaktivität3"/>
+                    <img loading="lazy" src={p27} alt="brille gegen radioaktivität3"/>
                     <p className="legend">brille gegen radioaktivität3</p>
                 </div>
                 <div>
-                    <img src={p28} alt="brille gegen radioaktivität2"/>
+                    <img loading="lazy" src={p28} alt="brille gegen radioaktivität2"/>
                     <p className="legend">brille gegen radioaktivität2</p>
                 </div>
                 <div>
-                    <img src={p29} alt="sie hatten zu große Flügel"/>
+                    <img loading="lazy" src={p29} alt="sie hatten zu große Flügel"/>
                     <p className="legend">sie hatten zu große Flügel</p>
                 </div>
                 <div>
-                    <img src={p30} alt="gift vs. gift"/>
+                    <img loading="lazy" src={p30} alt="gift vs. gift"/>
                     <p className="legend">gift vs. gift</p>
                 </div>
                 <div>
-                    <img src={p31} alt="europäische Hündin"/>
+                    <img loading="lazy" src={p31} alt="europäische Hündin"/>
                     <p className="legend">europäische Hündin</p>
                 </div>
                 <div>
-                    <img src={p32} alt="sisyphus (2)"/>
+                    <img loading="lazy" src={p32} alt="sisyphus (2)"/>
                     <p className="legend">sisyphus (2)</p>
                 </div>
                 <div>
-                    <img src={p33} alt="was bleibt"/>
+                    <img loading="lazy" src={p33} alt="was bleibt"/>
                     <p className="legend">Was bleibt</p>
                 </div>
                 <div>
-                    <img src={p34} alt="was bleibt"/>
+                    <img loading="lazy" src={p34} alt="was bleibt"/>
                     <p className="legend">Was bleibt</p>
                 </div>
                 <div>
-                    <img src={p35} alt="Nietsche"/>
+                    <img loading="lazy" src={p35} alt="Nietsche"/>
                     <p className="legend">Nietsche</p>
                 </div>
                 <div>
-                    <img src={p36} alt="Dostojewski"/>
+                    <img loading="lazy" src={p36} alt="Dostojewski"/>
                     <p className="legend">Dostojewski</p>
                 </div>
                 <div>
-                    <img src={p37} alt="Hesse"/>
+                    <img loading="lazy" src={p37} alt="Hesse"/>
                     <p className="legend">Hesse</p>
                 </div>
             </Carousel>

@@ -27,9 +27,9 @@ const Menu = (props) =>
                                 <NavLink to='/kontakt' onClick={props.slideMenu}><li> {context.menu[6]}</li></NavLink>
                             </div>
                             <div className='lang'>
-                                <img className='lang__flag' onClick={ () => context.changeLang('de')} src={ger} alt='de'/>
-                                <img className='lang__flag' onClick={ () => context.changeLang('en')} src={uk} alt='en'/>
-                                <img className='lang__flag' onClick={ () => context.changeLang('es')} src={esp} alt='es'/>
+                                <img loading="lazy" className='lang__flag' onClick={ () => context.changeLang('de')} src={ger} alt='de'/>
+                                <img loading="lazy" className='lang__flag' onClick={ () => context.changeLang('en')} src={uk} alt='en'/>
+                                <img loading="lazy" className='lang__flag' onClick={ () => context.changeLang('es')} src={esp} alt='es'/>
                             </div>
                         </div>
                     ) : (
@@ -41,9 +41,9 @@ const Menu = (props) =>
                             <NavLink to='/presse'><li> {context.menu[5]}</li></NavLink>
                             <NavLink to='/kontakt'><li> {context.menu[6]}</li></NavLink>
                             <div className='lang'>
-                                <img className='lang__flag' onClick={ () => context.changeLang('de')} src={ger} alt='de'/>
-                                <img className='lang__flag' onClick={ () => context.changeLang('en')} src={uk} alt='en'/>
-                                <img className='lang__flag' onClick={ () => context.changeLang('es')} src={esp} alt='es'/>
+                                <img loading="lazy" className='lang__flag' onClick={ () => context.changeLang('de')} src={ger} alt='de'/>
+                                <img loading="lazy" className='lang__flag' onClick={ () => context.changeLang('en')} src={uk} alt='en'/>
+                                <img loading="lazy" className='lang__flag' onClick={ () => context.changeLang('es')} src={esp} alt='es'/>
                             </div>
                         </ul>
                     )

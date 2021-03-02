@@ -33,91 +33,91 @@ const Zeichnungen = (props) =>
             <span className='zeichnungen__info'>Zeichnungen</span>
             <Carousel dynamicHeight={true} showArrows={true}>
                 <div>
-                    <img src={p17} alt="Wurzelschlage"/>
+                    <img loading="lazy" src={p17} alt="Wurzelschlage"/>
                     <p className="legend">Wurzelschlage</p>
                 </div>
                 <div>
-                    <img src={p1} alt="Kannibalen"/>
+                    <img loading="lazy" src={p1} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p2} alt="Kannibalen"/>
+                    <img loading="lazy" src={p2} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p3} alt="Kannibalen"/>
+                    <img loading="lazy" src={p3} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p4} alt="Kannibalen"/>
+                    <img loading="lazy" src={p4} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p5} alt="Kannibalen"/>
+                    <img loading="lazy" src={p5} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p6} alt="Kannibalen"/>
+                    <img loading="lazy" src={p6} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p7} alt="Kannibalen"/>
+                    <img loading="lazy" src={p7} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p8} alt="Kannibalen"/>
+                    <img loading="lazy" src={p8} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p9} alt="Kannibalen"/>
+                    <img loading="lazy" src={p9} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
                 <div>
-                    <img src={p10} alt="Dostojewski"/>
+                    <img loading="lazy" src={p10} alt="Dostojewski"/>
                     <p className="legend">Dostojewski</p>
                 </div>
                 <div>
-                    <img src={p11} alt="Hesse"/>
+                    <img loading="lazy" src={p11} alt="Hesse"/>
                     <p className="legend">Hesse</p>
                 </div>
                 <div>
-                    <img src={p12} alt="Baudelaire"/>
+                    <img loading="lazy" src={p12} alt="Baudelaire"/>
                     <p className="legend">Baudelaire</p>
                 </div>
                 <div>
-                    <img src={p13} alt="Camus"/>
+                    <img loading="lazy" src={p13} alt="Camus"/>
                     <p className="legend">Camus</p>
                 </div>
                 <div>
-                    <img src={p14} alt="Gegen Radioaktivität"/>
+                    <img loading="lazy" src={p14} alt="Gegen Radioaktivität"/>
                     <p className="legend">Gegen Radioaktivität</p>
                 </div>
                 <div>
-                    <img src={p15} alt="Neues Leben"/>
+                    <img loading="lazy" src={p15} alt="Neues Leben"/>
                     <p className="legend">Neues Leben</p>
                 </div>
                 <div>
-                    <img src={p16} alt="Spiegelung"/>
+                    <img loading="lazy" src={p16} alt="Spiegelung"/>
                     <p className="legend">Spiegelung</p>
                 </div>
                 <div>
-                    <img src={p18} alt="pipimann"/>
+                    <img loading="lazy" src={p18} alt="pipimann"/>
                     <p className="legend">pipimann</p>
                 </div>
                 <div>
-                    <img src={p19} alt="ich liebe meine Arbeit"/>
+                    <img loading="lazy" src={p19} alt="ich liebe meine Arbeit"/>
                     <p className="legend">ich liebe meine Arbeit</p>
                 </div>
                 <div>
-                    <img src={p20} alt="boot"/>
+                    <img loading="lazy" src={p20} alt="boot"/>
                     <p className="legend">boot</p>
                 </div>
                 <div>
-                    <img src={p21} alt="hai"/>
+                    <img loading="lazy" src={p21} alt="hai"/>
                     <p className="legend">hai</p>
                 </div>
                 <div>
-                    <img src={p22} alt="Auf den Lorbeeren ausruhen"/>
+                    <img loading="lazy" src={p22} alt="Auf den Lorbeeren ausruhen"/>
                     <p className="legend">Auf den Lorbeeren ausruhen</p>
                 </div>
             </Carousel>

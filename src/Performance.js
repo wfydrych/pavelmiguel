@@ -16,23 +16,23 @@ const Performance = (props) =>
             <span className='performance__info'>Performance</span>
             <Carousel dynamicHeight={true} showArrows={true}>
                 <div>
-                    <img src={p1} alt="Hockenheim, 2020"/>
+                    <img loading="lazy" src={p1} alt="Hockenheim, 2020"/>
                     <p className="legend">Hockenheim, 2020</p>
                 </div>
                 <div>
-                    <img src={p2} alt="Mannheim, 2020"/>
+                    <img loading="lazy" src={p2} alt="Mannheim, 2020"/>
                     <p className="legend">Mannheim, 2020</p>
                 </div>
                 <div>
-                    <img src={p3} alt="Lidellplatzfest, 2015"/>
+                    <img loading="lazy" src={p3} alt="Lidellplatzfest, 2015"/>
                     <p className="legend">Lidellplatzfest, 2015</p>
                 </div>
                 <div>
-                    <img src={p4} alt="Pfinzal, 2014"/>
+                    <img loading="lazy" src={p4} alt="Pfinzal, 2014"/>
                     <p className="legend">Pfinzal, 2014</p>
                 </div>
                 <div>
-                    <img src={p5} alt="Hockenheim , 2020"/>
+                    <img loading="lazy" src={p5} alt="Hockenheim , 2020"/>
                     <p className="legend">Hockenheim , 2020</p>
                 </div>
             </Carousel>

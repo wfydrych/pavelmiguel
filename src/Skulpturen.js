@@ -36,103 +36,103 @@ const Skulpturen = (props) =>
             <span className='skulpturen__info'>Skulpturen</span>
             <Carousel dynamicHeight={true} showArrows={true}>
                 <div>
-                    <img src={p1} alt="der stumme mann"/>
+                    <img loading="lazy" src={p1} alt="der stumme mann"/>
                     <p className="legend">der stumme mann</p>
                 </div>
                 <div>
-                    <img src={p2} alt="Pavel Miguel. Scheiss Krieg"/>
+                    <img loading="lazy" src={p2} alt="Pavel Miguel. Scheiss Krieg"/>
                     <p className="legend">Pavel Miguel. Scheiss Krieg</p>
                 </div>
                 <div>
-                    <img src={p3} alt="fragen an Gott"/>
+                    <img loading="lazy" src={p3} alt="fragen an Gott"/>
                     <p className="legend">fragen an Gott</p>
                 </div>
                 <div>
-                    <img src={p11} alt="fuck corona"/>
+                    <img loading="lazy" src={p11} alt="fuck corona"/>
                     <p className="legend">fuck corona</p>
                 </div>
                 <div>
-                    <img src={p12} alt="ich liebe meiner Job"/>
+                    <img loading="lazy" src={p12} alt="ich liebe meiner Job"/>
                     <p className="legend">ich liebe meiner Job</p>
                 </div>
                 <div>
-                    <img src={p13} alt="meine bessere Seite"/>
+                    <img loading="lazy" src={p13} alt="meine bessere Seite"/>
                     <p className="legend">meine bessere Seite</p>
                 </div>
                 <div>
-                    <img src={p14} alt="Kampf gegen die Dunkelheit"/>
+                    <img loading="lazy" src={p14} alt="Kampf gegen die Dunkelheit"/>
                     <p className="legend">Kampf gegen die Dunkelheit</p>
                 </div>
                 <div>
-                    <img src={p15} alt="die Bestie und die Megabestie"/>
+                    <img loading="lazy" src={p15} alt="die Bestie und die Megabestie"/>
                     <p className="legend">die Bestie und die Megabestie</p>
                 </div>
                 <div>
-                    <img src={p16} alt="die Erde auf dem Sicht Gottes"/>
+                    <img loading="lazy" src={p16} alt="die Erde auf dem Sicht Gottes"/>
                     <p className="legend">die Erde auf dem Sicht Gottes</p>
                 </div>
                 <div>
-                    <img src={p17} alt="Denker"/>
+                    <img loading="lazy" src={p17} alt="Denker"/>
                     <p className="legend">Denker</p>
                 </div>
                 <div>
-                    <img src={p18} alt="fuck corona 2"/>
+                    <img loading="lazy" src={p18} alt="fuck corona 2"/>
                     <p className="legend">fuck corona 2</p>
                 </div>
                 <div>
-                    <img src={p19} alt="Atlas"/>
+                    <img loading="lazy" src={p19} alt="Atlas"/>
                     <p className="legend">Atlas</p>
                 </div>
                 <div>
-                    <img src={p20} alt="antiviruskopf"/>
+                    <img loading="lazy" src={p20} alt="antiviruskopf"/>
                     <p className="legend">antiviruskopf</p>
                 </div>
                 <div>
-                    <img src={p21} alt="eurotabletten"/>
+                    <img loading="lazy" src={p21} alt="eurotabletten"/>
                     <p className="legend">eurotabletten</p>
                 </div>
                 <div>
-                    <img src={p22} alt="auf der Suche nach verlorenen Zeit"/>
+                    <img loading="lazy" src={p22} alt="auf der Suche nach verlorenen Zeit"/>
                     <p className="legend">auf der Suche nach verlorenen Zeit</p>
                 </div>
                 <div>
-                    <img src={p23} alt="bunte obst1"/>
+                    <img loading="lazy" src={p23} alt="bunte obst1"/>
                     <p className="legend">bunte obst1</p>
                 </div>
                 <div>
-                    <img src={p24} alt="bunte obst2"/>
+                    <img loading="lazy" src={p24} alt="bunte obst2"/>
                     <p className="legend">bunte obst2</p>
                 </div>
                 <div>
-                    <img src={p25} alt="bunte obst3"/>
+                    <img loading="lazy" src={p25} alt="bunte obst3"/>
                     <p className="legend">bunte obst3</p>
                 </div>
                 <div>
-                    <img src={p26} alt="Feste Ideen"/>
+                    <img loading="lazy" src={p26} alt="Feste Ideen"/>
                     <p className="legend">Feste Ideen</p>
                 </div>
                 <div>
-                    <img src={p27} alt="der Zockel der Kultur"/>
+                    <img loading="lazy" src={p27} alt="der Zockel der Kultur"/>
                     <p className="legend">der Zockel der Kultur</p>
                 </div>
                 <div>
-                    <img src={p28} alt="der Träumer"/>
+                    <img loading="lazy" src={p28} alt="der Träumer"/>
                     <p className="legend">der Träumer</p>
                 </div>
                 <div>
-                    <img src={p29} alt="Kirche"/>
+                    <img loading="lazy" src={p29} alt="Kirche"/>
                     <p className="legend">Kirche</p>
                 </div>
                 <div>
-                    <img src={p30} alt="orange fisch"/>
+                    <img loading="lazy" src={p30} alt="orange fisch"/>
                     <p className="legend">orange fisch</p>
                 </div>
                 <div>
-                    <img src={p31} alt="hammerhai"/>
+                    <img loading="lazy" src={p31} alt="hammerhai"/>
                     <p className="legend">hammerhai</p>
                 </div>
                 <div>
-                    <img src={p32} alt="wohin du gehts, gehst du mit mir"/>
+                    <img loading="lazy" src={p32} alt="wohin du gehts, gehst du mit mir"/>
                     <p className="legend">wohin du gehts, gehst du mit mir</p>
                 </div>
             </Carousel>

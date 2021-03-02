@@ -10,21 +10,21 @@ const RightBar = (props) =>
     <div className='rightbar'>
         <NavLink to='/malerei'>
             <div className='rightbar__picdiv'>
-                <img alt='pic' src={malerei} />
+                <img loading="lazy" alt='pic' src={malerei} />
                 <div className='rightbar__picdiv__txt'>Malerei</div>
             </div>
         </NavLink>
 
         <NavLink to='/zeichnungen'>
             <div className='rightbar__picdiv'>
-                <img alt='pic' src={zeichnungen} />
+                <img loading="lazy" alt='pic' src={zeichnungen} />
                 <div className='rightbar__picdiv__txt'>Zeichnungen</div>
             </div>
         </NavLink>
 
         <NavLink to='/performance'>
             <div className='rightbar__picdiv'>
-                <img alt='pic' src={performance} />
+                <img loading="lazy" alt='pic' src={performance} />
                 <div className='rightbar__picdiv__txt'>Performance</div>
             </div>
         </NavLink>

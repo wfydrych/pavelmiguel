@@ -11,9 +11,9 @@ const Home = (props) =>
             <Media query={{ maxWidth: 600 }}>
                 {matches =>
                  matches ? (
-                    <img src={homepic_m} alt='homepic' className='home__pic'/>
+                    <img loading="lazy" src={homepic_m} alt='homepic' className='home__pic'/>
                 ) : (
-                    <img src={homepic} alt='homepic' className='home__pic'/>
+                    <img loading="lazy" src={homepic} alt='homepic' className='home__pic'/>
                 )
             }
             </Media>

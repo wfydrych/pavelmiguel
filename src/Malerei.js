@@ -42,127 +42,127 @@ const Malerei = (props) =>
             <span className='malerei__info'>Malerei</span>
             <Carousel dynamicHeight={true} showArrows={true}>
                 <div>
-                    <img src={p1} alt="Himmel für Maulwürfe"/>
+                    <img loading="lazy" src={p1} alt="Himmel für Maulwürfe"/>
                     <p className="legend">Himmel für Maulwürfe</p>
                 </div>
                 <div>
-                    <img src={p2} alt="Himmel für Maulwürfe"/>
+                    <img loading="lazy" src={p2} alt="Himmel für Maulwürfe"/>
                     <p className="legend">Himmel für Maulwürfe</p>
                 </div>
                 <div>
-                    <img src={p3} alt="Sonne"/>
+                    <img loading="lazy" src={p3} alt="Sonne"/>
                     <p className="legend">Sonne</p>
                 </div>
                 <div>
-                    <img src={p4} alt="Der trunkene Schiff"/>
+                    <img loading="lazy" src={p4} alt="Der trunkene Schiff"/>
                     <p className="legend">Der trunkene Schiff</p>
                 </div>
                 <div>
-                    <img src={p5} alt="Steuermann"/>
+                    <img loading="lazy" src={p5} alt="Steuermann"/>
                     <p className="legend">Steuermann</p>
                 </div>
                 <div>
-                    <img src={p6} alt="Unterhose in der Himmel"/>
+                    <img loading="lazy" src={p6} alt="Unterhose in der Himmel"/>
                     <p className="legend">Unterhose in der Himmel</p>
                 </div>
                 <div>
-                    <img src={p7} alt="Das Haus am Ende der Welt"/>
+                    <img loading="lazy" src={p7} alt="Das Haus am Ende der Welt"/>
                     <p className="legend">Das Haus am Ende der Welt</p>
                 </div>
                 <div>
-                    <img src={p8} alt="Spiegelung"/>
+                    <img loading="lazy" src={p8} alt="Spiegelung"/>
                     <p className="legend">Spiegelung</p>
                 </div>
                 <div>
-                    <img src={p9} alt="Heavy metal I"/>
+                    <img loading="lazy" src={p9} alt="Heavy metal I"/>
                     <p className="legend">Heavy metal I</p>
                 </div>
                 <div>
-                    <img src={p10} alt="Heavy metal III"/>
+                    <img loading="lazy" src={p10} alt="Heavy metal III"/>
                     <p className="legend">Heavy metal III</p>
                 </div>
                 <div>
-                    <img src={p11} alt="Heavy metal II"/>
+                    <img loading="lazy" src={p11} alt="Heavy metal II"/>
                     <p className="legend">Heavy metal II</p>
                 </div>
                 <div>
-                    <img src={p12} alt="Atomische Sardellen"/>
+                    <img loading="lazy" src={p12} alt="Atomische Sardellen"/>
                     <p className="legend">Atomische Sardellen</p>
                 </div>
                 <div>
-                    <img src={p13} alt="Tunfisch"/>
+                    <img loading="lazy" src={p13} alt="Tunfisch"/>
                     <p className="legend">Tunfisch</p>
                 </div>
                 <div>
-                    <img src={p14} alt="Goldbrasse"/>
+                    <img loading="lazy" src={p14} alt="Goldbrasse"/>
                     <p className="legend">Goldbrasse</p>
                 </div>
                 <div>
-                    <img src={p15} alt="Atomische Sardellen"/>
+                    <img loading="lazy" src={p15} alt="Atomische Sardellen"/>
                     <p className="legend">Atomische Sardellen</p>
                 </div>
                 <div>
-                    <img src={p16} alt="Barrakuda"/>
+                    <img loading="lazy" src={p16} alt="Barrakuda"/>
                     <p className="legend">Barrakuda</p>
                 </div>
                 <div>
-                    <img src={p17} alt="Fischers"/>
+                    <img loading="lazy" src={p17} alt="Fischers"/>
                     <p className="legend">Fischers</p>
                 </div>
                 <div>
-                    <img src={p18} alt="Traum"/>
+                    <img loading="lazy" src={p18} alt="Traum"/>
                     <p className="legend">Traum</p>
                 </div>
                 <div>
-                    <img src={p19} alt="Oase"/>
+                    <img loading="lazy" src={p19} alt="Oase"/>
                     <p className="legend">Oase</p>
                 </div>
                 <div>
-                    <img src={p20} alt="Ich ohne Frühstück"/>
+                    <img loading="lazy" src={p20} alt="Ich ohne Frühstück"/>
                     <p className="legend">Ich ohne Frühstück</p>
                 </div>
                 <div>
-                    <img src={p21} alt="Osche"/>
+                    <img loading="lazy" src={p21} alt="Osche"/>
                     <p className="legend">Osche</p>
                 </div>
                 <div>
-                    <img src={p22} alt="Stummeman"/>
+                    <img loading="lazy" src={p22} alt="Stummeman"/>
                     <p className="legend">Stummeman</p>
                 </div>
                 <div>
-                    <img src={p23} alt="Schwarze Serie"/>
+                    <img loading="lazy" src={p23} alt="Schwarze Serie"/>
                     <p className="legend">Schwarze Serie</p>
                 </div>
                 <div>
-                    <img src={p24} alt="Schwarze Serie"/>
+                    <img loading="lazy" src={p24} alt="Schwarze Serie"/>
                     <p className="legend">Schwarze Serie</p>
                 </div>
                 <div>
-                    <img src={p25} alt="Schwarze Serie"/>
+                    <img loading="lazy" src={p25} alt="Schwarze Serie"/>
                     <p className="legend">Schwarze Serie</p>
                 </div>
                 <div>
-                    <img src={p26} alt="Schwarze Serie"/>
+                    <img loading="lazy" src={p26} alt="Schwarze Serie"/>
                     <p className="legend">Schwarze Serie</p>
                 </div>
                 <div>
-                    <img src={p27} alt="Schwarze Serie"/>
+                    <img loading="lazy" src={p27} alt="Schwarze Serie"/>
                     <p className="legend">Schwarze Serie</p>
                 </div>
                 <div>
-                    <img src={p28} alt="Schwarze Serie"/>
+                    <img loading="lazy" src={p28} alt="Schwarze Serie"/>
                     <p className="legend">Schwarze Serie</p>
                 </div>
                 <div>
-                    <img src={p29} alt="Landschaft"/>
+                    <img loading="lazy" src={p29} alt="Landschaft"/>
                     <p className="legend">Landschaft</p>
                 </div>
                 <div>
-                    <img src={p30} alt="Landschaft"/>
+                    <img loading="lazy" src={p30} alt="Landschaft"/>
                     <p className="legend">Landschaft</p>
                 </div>
                 <div>
-                    <img src={p31} alt="Die Tür zur Ewigkeit"/>
+                    <img loading="lazy" src={p31} alt="Die Tür zur Ewigkeit"/>
                     <p className="legend">Die Tür zur Ewigkeit</p>
                 </div>
             </Carousel>
