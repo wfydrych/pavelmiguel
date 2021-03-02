@@ -36,6 +36,10 @@ import p30 from './img/installationen/30.jpg'
 import p31 from './img/installationen/31.jpg'
 import p32 from './img/installationen/32.jpg'
 import p33 from './img/installationen/33.jpg'
+import p34 from './img/installationen/34.jpg'
+import p35 from './img/installationen/35.jpg'
+import p36 from './img/installationen/36.jpg'
+import p37 from './img/installationen/37.jpg'
 
 const Installationen = (props) => 
     (
@@ -43,6 +47,10 @@ const Installationen = (props) =>
         <div className='installationen'>
             <span className='installationen__info'>Installationen</span>
             <Carousel dynamicHeight={true} showArrows={true}>
+                <div>
+                    <img src={p7} alt="alles was ich wissen sollte"/>
+                    <p className="legend">alles was ich wissen sollte</p>
+                </div>
                 <div>
                     <img src={p1} alt="es ist schmerzhaft erbe zu sein1"/>
                     <p className="legend">es ist schmerzhaft erbe zu sein1</p>
@@ -66,10 +74,6 @@ const Installationen = (props) =>
                 <div>
                     <img src={p6} alt="wohin du gehts, gehst du mit mir"/>
                     <p className="legend">wohin du gehts, gehst du mit mir</p>
-                </div>
-                <div>
-                    <img src={p7} alt="alles was ich wissen sollte"/>
-                    <p className="legend">alles was ich wissen sollte</p>
                 </div>
                 <div>
                     <img src={p8} alt="der eroberer kommt"/>
@@ -174,6 +178,22 @@ const Installationen = (props) =>
                 <div>
                     <img src={p33} alt="was bleibt"/>
                     <p className="legend">Was bleibt</p>
+                </div>
+                <div>
+                    <img src={p34} alt="was bleibt"/>
+                    <p className="legend">Was bleibt</p>
+                </div>
+                <div>
+                    <img src={p35} alt="Nietsche"/>
+                    <p className="legend">Nietsche</p>
+                </div>
+                <div>
+                    <img src={p36} alt="Dostojewski"/>
+                    <p className="legend">Dostojewski</p>
+                </div>
+                <div>
+                    <img src={p37} alt="Hesse"/>
+                    <p className="legend">Hesse</p>
                 </div>
             </Carousel>
         </div>

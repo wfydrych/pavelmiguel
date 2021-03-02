@@ -33,6 +33,10 @@ const Zeichnungen = (props) =>
             <span className='zeichnungen__info'>Zeichnungen</span>
             <Carousel dynamicHeight={true} showArrows={true}>
                 <div>
+                    <img src={p17} alt="Wurzelschlage"/>
+                    <p className="legend">Wurzelschlage</p>
+                </div>
+                <div>
                     <img src={p1} alt="Kannibalen"/>
                     <p className="legend">Kannibalen</p>
                 </div>
@@ -95,10 +99,6 @@ const Zeichnungen = (props) =>
                 <div>
                     <img src={p16} alt="Spiegelung"/>
                     <p className="legend">Spiegelung</p>
-                </div>
-                <div>
-                    <img src={p17} alt="Wurzelschlage"/>
-                    <p className="legend">Wurzelschlage</p>
                 </div>
                 <div>
                     <img src={p18} alt="pipimann"/>

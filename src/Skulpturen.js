@@ -6,13 +6,6 @@ import './slider_settings.sass'
 import p1 from './img/skulpturen/1.jpg'
 import p2 from './img/skulpturen/2.jpg'
 import p3 from './img/skulpturen/3.png'
-import p4 from './img/skulpturen/4.jpg'
-import p5 from './img/skulpturen/5.jpg'
-import p6 from './img/skulpturen/6.jpg'
-import p7 from './img/skulpturen/7.jpg'
-import p8 from './img/skulpturen/8.jpg'
-import p9 from './img/skulpturen/9.jpg'
-import p10 from './img/skulpturen/10.jpg'
 import p11 from './img/skulpturen/11.jpg'
 import p12 from './img/skulpturen/12.jpg'
 import p13 from './img/skulpturen/13.jpg'
@@ -53,34 +46,6 @@ const Skulpturen = (props) =>
                 <div>
                     <img src={p3} alt="fragen an Gott"/>
                     <p className="legend">fragen an Gott</p>
-                </div>
-                <div>
-                    <img src={p4} alt="Nietsche"/>
-                    <p className="legend">Nietsche</p>
-                </div>
-                <div>
-                    <img src={p5} alt="Camus"/>
-                    <p className="legend">Camus</p>
-                </div>
-                <div>
-                    <img src={p6} alt="Dostojewski"/>
-                    <p className="legend">Dostojewski</p>
-                </div>
-                <div>
-                    <img src={p7} alt="Baudelaire"/>
-                    <p className="legend">Baudelaire</p>
-                </div>
-                <div>
-                    <img src={p8} alt="Hesse"/>
-                    <p className="legend">Hesse</p>
-                </div>
-                <div>
-                    <img src={p9} alt="Rilke"/>
-                    <p className="legend">Rilke</p>
-                </div>
-                <div>
-                    <img src={p10} alt="Kafka"/>
-                    <p className="legend">Kafka</p>
                 </div>
                 <div>
                     <img src={p11} alt="fuck corona"/>

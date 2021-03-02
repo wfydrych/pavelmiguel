@@ -3,7 +3,7 @@
     background-color: rgb(223, 222, 221)
     display: flex
     flex-direction: column
-    justify-content: space-around
+    justify-content: flex-start
     align-items: center
     margin: 0 20px
     max-height: 82vh
@@ -17,6 +17,7 @@
         width: 25vh
         height: 25vh
         position: relative
+        margin: 20px 0
 
         &__txt
             position: absolute
@@ -32,8 +33,9 @@
             transition: .3s
 
         img
-            height: 25vh
-            width: 25vh
+            height: 25vmin
+            width: 25vmin
+            object-fit: cover
 
             &:hover
                 cursor: pointer
