@@ -27,7 +27,6 @@ import p28 from './img/skulpturen/28.jpg'
 import p29 from './img/skulpturen/29.jpg'
 import p30 from './img/skulpturen/30.jpg'
 import p31 from './img/skulpturen/31.jpg'
-import p32 from './img/skulpturen/32.png'
 
 const Skulpturen = (props) => 
     (
@@ -130,10 +129,6 @@ const Skulpturen = (props) =>
                 <div>
                     <img loading="lazy" src={p31} alt="hammerhai"/>
                     <p className="legend">hammerhai</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p32} alt="wohin du gehts, gehst du mit mir"/>
-                    <p className="legend">wohin du gehts, gehst du mit mir</p>
                 </div>
             </Carousel>
         </div>
