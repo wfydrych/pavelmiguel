@@ -2,6 +2,7 @@ import React, {Fragment} from 'react'
 import './Installationen.sass'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
+import Context from './Context'
 import './slider_settings.sass'
 import p1 from './img/installationen/1.png'
 import p2 from './img/installationen/2.jpg'
@@ -44,159 +45,163 @@ import p37 from './img/installationen/37.jpg'
 const Installationen = (props) => 
     (
     <Fragment>
-        <div className='installationen'>
-            <span className='installationen__info'>Installationen</span>
-            <Carousel dynamicHeight={true} showArrows={true}>
-                <div>
-                    <img loading="lazy" src={p7} alt="alles was ich wissen sollte"/>
-                    <p className="legend">alles was ich wissen sollte</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p1} alt="es ist schmerzhaft erbe zu sein1"/>
-                    <p className="legend">es ist schmerzhaft erbe zu sein1</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p2} alt="Himmelsleiter"/>
-                    <p className="legend">Himmelsleiter</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p3} alt="mein heimat"/>
-                    <p className="legend">mein heimat</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p4} alt="auf dem Lorbeeren ausruhen (dieselbe)"/>
-                    <p className="legend">auf dem Lorbeeren ausruhen (dieselbe)</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p5} alt="auf dem Lorbeeren ausruhen"/>
-                    <p className="legend">auf dem Lorbeeren ausruhen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p6} alt="wohin du gehts, gehst du mit mir"/>
-                    <p className="legend">wohin du gehts, gehst du mit mir</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p8} alt="der eroberer kommt"/>
-                    <p className="legend">der eroberer kommt</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p9} alt="der eroberer kommt (dieselbe)"/>
-                    <p className="legend">der eroberer kommt (dieselbe)</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p10} alt="bäume"/>
-                    <p className="legend">bäume</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p11} alt="bäume"/>
-                    <p className="legend">bäume</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p12} alt="bäume"/>
-                    <p className="legend">bäume</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p13} alt="welcome to the machine"/>
-                    <p className="legend">welcome to the machine</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p14} alt="wurzelschlagen7"/>
-                    <p className="legend">wurzelschlagen7</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p15} alt="wurzelschlagen8"/>
-                    <p className="legend">wurzelschlagen8</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p16} alt="wurzelschlagen6"/>
-                    <p className="legend">wurzelschlagen6</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p17} alt="wurzelschlagen5"/>
-                    <p className="legend">wurzelschlagen5</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p18} alt="wurzelschlagen4"/>
-                    <p className="legend">wurzelschlagen4</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p19} alt="wurzelschlagen3"/>
-                    <p className="legend">wurzelschlagen3</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p20} alt="wurzelschlagen2"/>
-                    <p className="legend">wurzelschlagen2</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p21} alt="wurzelschlagen1"/>
-                    <p className="legend">wurzelschlagen1</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p22} alt="die Welle der Illusion"/>
-                    <p className="legend">die Welle der Illusion</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p23} alt="dein Kurs bestimmen (dieselbe)"/>
-                    <p className="legend">dein Kurs bestimmen (dieselbe)</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p24} alt="dein Kurs bestimmen"/>
-                    <p className="legend">dein Kurs bestimmen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p25} alt="es ist schmerzhaft erbe zu sein2"/>
-                    <p className="legend">es ist schmerzhaft erbe zu sein2</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p26} alt="brille gegen radioaktivität1"/>
-                    <p className="legend">brille gegen radioaktivität1</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p27} alt="brille gegen radioaktivität3"/>
-                    <p className="legend">brille gegen radioaktivität3</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p28} alt="brille gegen radioaktivität2"/>
-                    <p className="legend">brille gegen radioaktivität2</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p29} alt="sie hatten zu große Flügel"/>
-                    <p className="legend">sie hatten zu große Flügel</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p30} alt="gift vs. gift"/>
-                    <p className="legend">gift vs. gift</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p31} alt="europäische Hündin"/>
-                    <p className="legend">europäische Hündin</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p32} alt="sisyphus (2)"/>
-                    <p className="legend">sisyphus (2)</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p33} alt="was bleibt"/>
-                    <p className="legend">Was bleibt</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p34} alt="was bleibt"/>
-                    <p className="legend">Was bleibt</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p35} alt="Nietsche"/>
-                    <p className="legend">Nietsche</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p36} alt="Dostojewski"/>
-                    <p className="legend">Dostojewski</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p37} alt="Hesse"/>
-                    <p className="legend">Hesse</p>
-                </div>
-            </Carousel>
-        </div>
+        <Context.Consumer>
+        { (context) => (
+            <div className='installationen'>
+                <span className='installationen__info'>{context.gallery[2]}</span>
+                <Carousel dynamicHeight={true} showArrows={true}>
+                    <div>
+                        <img loading="lazy" src={p7} alt={context.installationen[5]}/>
+                        <p className="legend">{context.installationen[5]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p1} alt={context.installationen[0]}/>
+                        <p className="legend">{context.installationen[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p2} alt={context.installationen[1]}/>
+                        <p className="legend">{context.installationen[1]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p3} alt={context.installationen[2]}/>
+                        <p className="legend">{context.installationen[2]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p4} alt={context.installationen[3]}/>
+                        <p className="legend">{context.installationen[3]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p5} alt={context.installationen[3]}/>
+                        <p className="legend">{context.installationen[3]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p6} alt={context.installationen[4]}/>
+                        <p className="legend">{context.installationen[4]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p8} alt={context.installationen[6]}/>
+                        <p className="legend">{context.installationen[6]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p9} alt={context.installationen[6]}/>
+                        <p className="legend">{context.installationen[6]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p10} alt={context.installationen[7]}/>
+                        <p className="legend">{context.installationen[7]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p11} alt={context.installationen[7]}/>
+                        <p className="legend">{context.installationen[7]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p12} alt={context.installationen[7]}/>
+                        <p className="legend">{context.installationen[7]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p13} alt={context.installationen[8]}/>
+                        <p className="legend">{context.installationen[8]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p14} alt={context.installationen[9]}/>
+                        <p className="legend">{context.installationen[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p15} alt={context.installationen[9]}/>
+                        <p className="legend">{context.installationen[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p16} alt={context.installationen[9]}/>
+                        <p className="legend">{context.installationen[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p17} alt={context.installationen[9]}/>
+                        <p className="legend">{context.installationen[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p18} alt={context.installationen[9]}/>
+                        <p className="legend">{context.installationen[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p19} alt={context.installationen[9]}/>
+                        <p className="legend">{context.installationen[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p20} alt={context.installationen[9]}/>
+                        <p className="legend">{context.installationen[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p21} alt={context.installationen[9]}/>
+                        <p className="legend">{context.installationen[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p22} alt={context.installationen[10]}/>
+                        <p className="legend">{context.installationen[10]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p23} alt={context.installationen[11]}/>
+                        <p className="legend">{context.installationen[11]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p24} alt={context.installationen[12]}/>
+                        <p className="legend">{context.installationen[12]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p25} alt={context.installationen[13]}/>
+                        <p className="legend">{context.installationen[13]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p26} alt={context.installationen[14]}/>
+                        <p className="legend">{context.installationen[14]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p27} alt={context.installationen[14]}/>
+                        <p className="legend">{context.installationen[14]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p28} alt={context.installationen[14]}/>
+                        <p className="legend">{context.installationen[14]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p29} alt={context.installationen[15]}/>
+                        <p className="legend">{context.installationen[15]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p30} alt={context.installationen[16]}/>
+                        <p className="legend">{context.installationen[16]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p31} alt={context.installationen[17]}/>
+                        <p className="legend">{context.installationen[17]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p32} alt={context.installationen[18]}/>
+                        <p className="legend">{context.installationen[18]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p33} alt={context.installationen[19]}/>
+                        <p className="legend">{context.installationen[19]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p34} alt={context.installationen[19]}/>
+                        <p className="legend">{context.installationen[19]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p35} alt={context.installationen[20]}/>
+                        <p className="legend">{context.installationen[20]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p36} alt={context.installationen[21]}/>
+                        <p className="legend">{context.installationen[21]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p37} alt={context.installationen[22]}/>
+                        <p className="legend">{context.installationen[22]}</p>
+                    </div>
+                </Carousel>
+            </div>
+        )}
+        </Context.Consumer> 
     </Fragment>
 )
 

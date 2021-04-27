@@ -2,6 +2,7 @@ import React, {Fragment} from 'react'
 import './Zeichnungen.sass'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
+import Context from './Context'
 import './slider_settings.sass'
 import p1 from './img/zeichnungen/1.png'
 import p2 from './img/zeichnungen/2.png'
@@ -29,99 +30,103 @@ import p22 from './img/zeichnungen/22.png'
 const Zeichnungen = (props) => 
     (
     <Fragment>
-        <div className='zeichnungen'>
-            <span className='zeichnungen__info'>Zeichnungen</span>
-            <Carousel dynamicHeight={true} showArrows={true}>
-                <div>
-                    <img loading="lazy" src={p17} alt="Wurzelschlage"/>
-                    <p className="legend">Wurzelschlage</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p1} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p2} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p3} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p4} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p5} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p6} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p7} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p8} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p9} alt="Kannibalen"/>
-                    <p className="legend">Kannibalen</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p10} alt="Dostojewski"/>
-                    <p className="legend">Dostojewski</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p11} alt="Hesse"/>
-                    <p className="legend">Hesse</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p12} alt="Baudelaire"/>
-                    <p className="legend">Baudelaire</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p13} alt="Camus"/>
-                    <p className="legend">Camus</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p14} alt="Gegen Radioaktivität"/>
-                    <p className="legend">Gegen Radioaktivität</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p15} alt="Neues Leben"/>
-                    <p className="legend">Neues Leben</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p16} alt="Spiegelung"/>
-                    <p className="legend">Spiegelung</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p18} alt="pipimann"/>
-                    <p className="legend">pipimann</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p19} alt="ich liebe meine Arbeit"/>
-                    <p className="legend">ich liebe meine Arbeit</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p20} alt="boot"/>
-                    <p className="legend">boot</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p21} alt="hai"/>
-                    <p className="legend">hai</p>
-                </div>
-                <div>
-                    <img loading="lazy" src={p22} alt="Auf den Lorbeeren ausruhen"/>
-                    <p className="legend">Auf den Lorbeeren ausruhen</p>
-                </div>
-            </Carousel>
-        </div>
+        <Context.Consumer>
+        { (context) => (
+            <div className='zeichnungen'>
+                <span className='zeichnungen__info'>{context.gallery[4]}</span>
+                <Carousel dynamicHeight={true} showArrows={true}>
+                    <div>
+                        <img loading="lazy" src={p17} alt={context.zeichnung[8]}/>
+                        <p className="legend">{context.zeichnung[8]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p1} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p2} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p3} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p4} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p5} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p6} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p7} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p8} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p9} alt={context.zeichnung[0]}/>
+                        <p className="legend">{context.zeichnung[0]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p10} alt={context.zeichnung[1]}/>
+                        <p className="legend">{context.zeichnung[1]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p11} alt={context.zeichnung[2]}/>
+                        <p className="legend">{context.zeichnung[2]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p12} alt={context.zeichnung[3]}/>
+                        <p className="legend">{context.zeichnung[3]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p13} alt={context.zeichnung[4]}/>
+                        <p className="legend">{context.zeichnung[4]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p14} alt={context.zeichnung[5]}/>
+                        <p className="legend">{context.zeichnung[5]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p15} alt={context.zeichnung[6]}/>
+                        <p className="legend">{context.zeichnung[6]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p16} alt={context.zeichnung[7]}/>
+                        <p className="legend">{context.zeichnung[7]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p18} alt={context.zeichnung[9]}/>
+                        <p className="legend">{context.zeichnung[9]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p19} alt={context.zeichnung[10]}/>
+                        <p className="legend">{context.zeichnung[10]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p20} alt={context.zeichnung[11]}/>
+                        <p className="legend">{context.zeichnung[11]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p21} alt={context.zeichnung[12]}/>
+                        <p className="legend">{context.zeichnung[12]}</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src={p22} alt={context.zeichnung[13]}/>
+                        <p className="legend">{context.zeichnung[13]}</p>
+                    </div>
+                </Carousel>
+            </div>
+        )}
+        </Context.Consumer>
     </Fragment>
 )
 
