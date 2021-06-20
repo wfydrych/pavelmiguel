@@ -81,7 +81,7 @@ export default function Vita_DE() {
             </tr>
             <tr valign="top">
               <td width={100} style={{border: 'none', padding: '0cm'}}><p   style={{fontWeight: 'normal'}}>
-                  <font color="#000000"><font face="Open Sans, sans-serif"><span >200</span></font></font><font color="#000000"><font face="Open Sans, sans-serif"><span >0</span></font></font><font color="#000000"><font face="Open Sans, sans-serif"><span >
+                  <font color="#000000"><font face="Open Sans, sans-serif"><span >200</span></font></font><font color="#000000"><font face="Open Sans, sans-serif"><span >0 </span></font></font><font color="#000000"><font face="Open Sans, sans-serif"><span >
                         - 200</span></font></font><font color="#000000"><font face="Open Sans, sans-serif"><span >5</span></font></font></p>
               </td>
               <td  style={{border: 'none', padding: '0cm'}}><p  align="left" style={{border: 'none', padding: '0cm', pageBreakInside: 'auto', orphans: 2, widows: 2, background: 'transparent', pageBreakAfter: 'auto'}}>
@@ -92,7 +92,7 @@ export default function Vita_DE() {
             <tr valign="top">
               <td width={100} style={{border: 'none', padding: '0cm'}}><p  >
                   <strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}><font color="#000000"><font face="Open Sans, sans-serif"><span >s</span></font></font></span></span></font></font></strong><strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}><font color="#000000"><font face="Open Sans, sans-serif"><span >e</span></font></font></span></span></font></font></strong><strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}><font color="#000000"><font face="Open Sans, sans-serif"><span >i</span></font></font></span></span></font></font></strong><strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}><font color="#000000"><font face="Open Sans, sans-serif"><span >t
-                                </span></font></font></span></span></font></font></strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}>2007</span></span></font></font></p>
+                                </span></font></font></span></span></font></font></strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}> 2007</span></span></font></font></p>
               </td>
               <td  style={{border: 'none', padding: '0cm'}}><p  align="left" style={{border: 'none', padding: '0cm', pageBreakInside: 'auto', orphans: 2, widows: 2, background: 'transparent', pageBreakAfter: 'auto'}}>
                   <font size={2} style={{fontSize: '10pt'}}><span style={{fontVariant: 'normal'}}><font color="#000000"><span style={{textDecoration: 'none'}}><font face="Arial, serif"><font size={3} style={{fontSize: '12pt'}}><span ><span style={{fontStyle: 'normal'}}><span style={{background: 'transparent'}}>Mitglied
@@ -102,7 +102,7 @@ export default function Vita_DE() {
             <tr valign="top">
               <td width={100} style={{border: 'none', padding: '0cm'}}><p  >
                   <strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}>s</span></span></font></font></span></font></font></strong><strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}>eit
-                                </span></span></font></font></span></font></font></strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}>2010</span></span></font></font></p>
+                                </span></span></font></font></span></font></font></strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}> 2010</span></span></font></font></p>
               </td>
               <td  style={{border: 'none', padding: '0cm'}}><p  align="left" style={{border: 'none', padding: '0cm', pageBreakInside: 'auto', orphans: 2, widows: 2, background: 'transparent', pageBreakAfter: 'auto'}}>
                   <font size={2} style={{fontSize: '10pt'}}><span style={{fontVariant: 'normal'}}><font color="#000000"><span style={{textDecoration: 'none'}}><font face="Arial, serif"><font size={3} style={{fontSize: '12pt'}}><span ><span style={{fontStyle: 'normal'}}><span style={{background: 'transparent'}}>Atelier
@@ -112,7 +112,7 @@ export default function Vita_DE() {
             <tr valign="top">
               <td width={100} style={{border: 'none', padding: '0cm'}}><p  >
                   <strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}>s</span></span></font></font></span></font></font></strong><strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}>e</span></span></font></font></span></font></font></strong><strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}>it
-                                </span></span></font></font></span></font></font></strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}>2014</span></span></font></font></p>
+                                </span></span></font></font></span></font></font></strong><font color="#000000"><font face="Open Sans, sans-serif"><span ><span style={{fontWeight: 'normal'}}> 2014</span></span></font></font></p>
               </td>
               <td  style={{border: 'none', padding: '0cm'}}><p  align="left" style={{border: 'none', padding: '0cm', pageBreakInside: 'auto', orphans: 2, widows: 2, background: 'transparent', pageBreakAfter: 'auto'}}>
                   <font size={2} style={{fontSize: '10pt'}}><span style={{fontVariant: 'normal'}}><font color="#000000"><span style={{textDecoration: 'none'}}><font face="Arial, serif"><font size={3} style={{fontSize: '12pt'}}><span ><span style={{fontStyle: 'normal'}}><span style={{background: 'transparent'}}>Mitglied
@@ -600,7 +600,7 @@ export default function Vita_DE() {
           <br />
         </p>
         <p   style={{marginBottom: '0cm', lineHeight: '0.48cm'}}>
-          <font color="#333333"><font face="Open Sans, sans-serif"><b>BIBLIOGRAPHY</b></font></font></p>
+          <font color="#333333"><font face="Open Sans, sans-serif"><b>BIBLIOGRAFIE</b></font></font></p>
         <p   style={{marginBottom: '0cm', lineHeight: '0.48cm'}}>
           <br />
         </p>
