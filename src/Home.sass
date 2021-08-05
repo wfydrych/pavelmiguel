@@ -1,16 +1,20 @@
 .home
+    margin-top: 20px
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 60vw
+
     &__pic
-        background: url('./img/home.jpg')
-        background-size: contain
-        background-position: center
-        width: 58vw
-        margin-top: 20px
-        margin-left: 1vw
-        height: auto
+        max-height: 75vh
         
 
 @media (max-width: 1000px)
     .home
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 100vw
+
         &__pic
-            width: 100vw
             margin-left: 0

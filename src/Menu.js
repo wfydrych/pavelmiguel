@@ -20,7 +20,7 @@ const Menu = (props) =>
                             <span onClick={props.slideMenu}>{context.menu[0]}</span>
                             <div className='mobileMenuSlider'>
                                 <NavLink to='/home' onClick={props.slideMenu}><li> {context.menu[1]}</li></NavLink>
-                                <NavLink to='/werke' onClick={props.slideMenu}><li> {context.menu[2]}</li></NavLink>
+                                <NavLink to='/offentliche' onClick={props.slideMenu}><li> {context.menu[2]}</li></NavLink>
                                 <NavLink to='/vita' onClick={props.slideMenu}><li> {context.menu[3]}</li></NavLink>
                                 <NavLink to='/aktuelles' onClick={props.slideMenu}><li> {context.menu[4]}</li></NavLink>
                                 <NavLink to='/presse' onClick={props.slideMenu}><li> {context.menu[5]}</li></NavLink>
@@ -35,7 +35,7 @@ const Menu = (props) =>
                     ) : (
                         <ul>
                             <NavLink to='/home'><li> {context.menu[1]}</li></NavLink>
-                            <NavLink to='/werke'><li> {context.menu[2]}</li></NavLink>
+                            <NavLink to='/offentliche'><li> {context.menu[2]}</li></NavLink>
                             <NavLink to='/vita'><li> {context.menu[3]}</li></NavLink>
                             <NavLink to='/aktuelles'><li> {context.menu[4]}</li></NavLink>
                             <NavLink to='/presse'><li> {context.menu[5]}</li></NavLink>
